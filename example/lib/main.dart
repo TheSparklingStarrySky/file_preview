@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:file_picker/file_picker.dart';
+// import 'package:file_picker/file_picker.dart';
 import 'package:file_preview_example/file_preview_page.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
@@ -107,22 +107,22 @@ class _HomePageState extends State<HomePage> {
               textColor: Colors.white,
               child: const Text('本地文件预览'),
               onPressed: () async {
-                FilePickerResult? result =
-                    await FilePicker.platform.pickFiles();
-                if (result != null) {
-                  File file = File(result.files.single.path!);
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) {
-                        return FilePreviewPage(
-                          title: "本地文件预览",
-                          path: file.path,
-                        );
-                      },
-                    ),
-                  );
-                }
+                // FilePickerResult? result =
+                //     await FilePicker.platform.pickFiles();
+                // if (result != null) {
+                //   File file = File(result.files.single.path!);
+                //   Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //       builder: (_) {
+                //         return FilePreviewPage(
+                //           title: "本地文件预览",
+                //           path: file.path,
+                //         );
+                //       },
+                //     ),
+                //   );
+                // }
               },
             ),
             MaterialButton(

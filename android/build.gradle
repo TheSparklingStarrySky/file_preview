@@ -63,6 +63,6 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation(name: 'TbsFileSdk_base_universal_release_1.0.5.6000030.20231109143349', ext: 'aar')
+    implementation(name: 'TbsFileSdk_base_universal_1.0.5.6000094.20250604183316', ext: 'aar')
 //    implementation files('libs/TbsFileSdk_1.0.5.aar')
 }
