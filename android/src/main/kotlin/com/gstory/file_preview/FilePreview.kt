@@ -178,7 +178,6 @@ internal class FilePreview(
                 localBundle.putString("filePath", file.toString())
                 localBundle.putString("tempPath", bsReaderTemp)
                 localBundle.putString("fileExt", fileExt)
-                localBundle.putBoolean("file_reader_enable_long_press_menu", true)
                 localBundle.putInt(
                     "set_content_view_height",
                     (height * activity.resources.displayMetrics.density).toInt()
